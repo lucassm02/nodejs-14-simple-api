@@ -1,11 +1,18 @@
 {
-  "dependencies": {
-    "express": "^4.17.1",
-    "uuidv4": "^6.2.3"
-  },
+  "name": "simple-nodejs-14-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/lucassm02/nodejs-14-simple-api",
+  "author": "Lucas Santos <lucassm02@gmail.com>",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
